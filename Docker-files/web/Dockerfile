@@ -1,4 +1,5 @@
-FROM nginx
+FROM nginx:1.29.0-alpine
+
 LABEL "Project"="Vprofile"
 LABEL "Author"="Imran"
 
